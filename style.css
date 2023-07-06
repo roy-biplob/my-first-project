@@ -62,11 +62,12 @@
     display: flex;
     justify-content: space-between;
 
-    height: 300px;
+    height: 350px;
+    padding: 0px 150px;
 }
 .photo{
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 .about_tittle{
     text-align: center;
@@ -87,6 +88,48 @@
 
 
 
+
 .About_Us_container{
     background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    height: 80vh;
+    text-align: center;
+    color: white;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    
+    height: 100%;
+   
+
+}
+.box1{
+  box-shadow: 20px 20px 20px  rgba(180, 170, 170, 0.233);
+    background-color: rgba(7, 7, 7, 0.795);
+    height: 300px;
+    width: 230px;
+    margin: 1px 150px;
+    padding: 10px;
+
+    
+}
+.icon_photo{
+    height: 100px;
+    width: 70px;
+}
+.box1,h2,p,button{
+    margin: 15px 0px ;
+}
+.t_p{
+    margin-top: 100px;
+}
+.btn-ser{
+    background-color: rgb(63, 62, 62);
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+   
 }
