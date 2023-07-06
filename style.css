@@ -31,3 +31,30 @@
 .manus :hover{
     color: red;
 }
+.banner_container{
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.banner_text{
+    color: white;
+}
+.banner_text , p{
+    margin: 10px 0px;
+}
+.banner_photo{
+    height: 300px;
+    width: 300px;
+}
+.title{
+    font-size: 50px;
+}
+.btn{
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+   margin-top: 10px;
+}
