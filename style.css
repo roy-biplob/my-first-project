@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.manu_container{
+    background-color: rgb(59, 58, 58);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+.logo , img {
+    width: 110px ;
+    height: 25px;
+}
+.manus{
+    color:white
+}
+.manus,  li{
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.manus{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.manus :hover{
+    color: red;
+}
